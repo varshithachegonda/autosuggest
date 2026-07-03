@@ -1,3 +1,16 @@
 h1{
     color: brown;
 }
+#home-intro{
+    text-align: center;
+    border-color: rgb(95, 14, 207);
+    border-style: solid;
+    background-color:white;
+    padding: 3px;
+}
+#p1{
+    color: blue;
+}
+#home-intro:hover{
+    background-color: rgb(177, 210, 79);
+}
