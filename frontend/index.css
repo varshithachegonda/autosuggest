@@ -33,10 +33,21 @@ h1 {
   text-decoration: none;
   color: white;
 }
-
+#nav a:hover{
+    color :aliceblue;
+    text-decoration: underline;
+}
+#card-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
 #card{
-  align-items: center;
-  margin-top: 5px;
+      border: 3px solid black;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 #card-img{
